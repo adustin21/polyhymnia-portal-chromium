@@ -1,0 +1,22 @@
+.container{
+	display: grid;
+}
+.input{
+	width: calc(100% - 0.8em - 4px);
+	height: 100%;
+	border: none;
+	outline: none;
+	padding:  1em 0.4em;
+	font-size: inherit;
+	font-family: inherit;
+	border: solid 2px #038AD4;
+	border-radius: inherit;
+}
+.warning{
+	/* justify-self: center; */
+	padding: 0.2em 0 0.2em 0;
+	text-align: left;
+	font-size: 70%;
+	font-weight: lighter;
+	color: #d40303;
+}

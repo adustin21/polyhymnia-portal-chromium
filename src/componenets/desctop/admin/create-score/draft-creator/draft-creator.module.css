@@ -1,0 +1,32 @@
+.container{
+	display: grid;
+}
+.form{
+	display: grid;
+}
+.inputs{
+	display: grid;
+	grid-template:	1fr / 1fr 1fr;
+}
+.inputs div:nth-child(1){
+	justify-self: left;
+	margin-left: 0%;
+	width: 90%;
+}
+.inputs div:nth-child(2){
+	justify-self: right;
+	margin-right: 0%;
+	width: 90%;
+}
+.parts{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgb(3, 138, 212, 10%);
+	margin: 1em 0em;
+	padding: 0em 1em;
+	font-weight:  bold;
+	border-radius: 12px;
+}
+.partsTitle{
+	margin: 1em;
+}

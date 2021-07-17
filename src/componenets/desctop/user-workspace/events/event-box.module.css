@@ -1,0 +1,22 @@
+.container{
+	border-radius: 12px;
+	background: #E6F4FB;
+	overflow: hidden;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+	margin-bottom: 2rem;
+}
+.title{
+	padding: 1em;
+	font-size: 120%;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.labelDate{
+	position: absolute;
+	right: 1em;
+	border-radius: 100%;
+	font-size: 80%;
+	user-select: none;
+
+}

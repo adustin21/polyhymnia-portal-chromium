@@ -1,0 +1,24 @@
+.container{
+	position: relative;
+}
+.title, .part{
+	display: flex;
+	font-weight: normal;
+	margin:  0.5em;
+	padding: 0.5em;
+	background-color: white;
+	color: rgb(3, 138, 212);
+	border-radius: 2px;
+	user-select: none;
+	align-items: center;
+	cursor: pointer;
+}
+.partBox{
+	position: absolute;
+	right: 0;
+	display: grid;
+	z-index: 10;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: rgba(229 243 251);
+	border-radius: 0 0 12px 12px;
+}

@@ -1,0 +1,24 @@
+div.container{
+	width: 100%;
+	background: #B8D3E188;
+	border-radius: 12px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 8fr;
+}
+div.icon{
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+div.code{
+	color: red;
+	justify-self: center;
+	align-self: center;
+	font-size: 150%;
+}
+div.text{
+	align-self: center;
+	font-size: 150%;
+	padding: 1em 1em;
+	color: #038AD4;
+}

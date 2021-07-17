@@ -1,0 +1,29 @@
+.container{
+	background-color: #038AD4;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box{
+	width: 30vw;
+	min-width: 320px;
+	background-color: #E6F4FB;
+	border-radius: 12px;
+}
+.title{
+	width: calc(100% - 2em);
+	text-align: center;
+	font-size: 150%;
+	font-weight: bolder;
+	color: #038AD4;
+	padding: 1em;
+}
+.warning{
+	width: calc(100% );
+	text-align: center;
+	padding: 0 0 1em 0em;
+	color: #d40303;
+}
+

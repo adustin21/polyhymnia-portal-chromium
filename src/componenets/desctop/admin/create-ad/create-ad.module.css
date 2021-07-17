@@ -1,0 +1,29 @@
+.container div{
+	margin-left: 0;
+	width: 100%;
+}
+.buttons{
+	display: grid;
+	grid-template-columns: calc(20px + 17em) 7fr;
+}
+.needSend{
+	display: block;
+	width: 12px !important;
+	max-width: 100%;
+	align-self: center;
+	height: 12px;
+	border: 2px solid white;
+	background-color: white;
+	outline: 2px solid #038AD4;
+	cursor: pointer;
+	position: relative;
+}
+.needSend::after{
+	position: absolute;
+	width: max-content;
+	align-self: center;
+	left: 20px;
+	top: -4px;
+	content: "Добавить в рассылку";
+	display: block;
+}

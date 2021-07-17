@@ -1,0 +1,23 @@
+.photo{
+	width: 200px;
+	height: 200px;
+	background-color: darkgray;
+	margin: 1rem auto;
+	border-radius: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.userName{
+	font-size: 150%;
+	color: #038AD4;
+	margin: 2rem auto 1rem auto;
+	font-weight: bold;
+	text-align: center;
+}
+.voice{
+	font-size: 120%;
+	text-align: center;
+	margin-bottom: 1rem;
+	font-style: italic;
+}

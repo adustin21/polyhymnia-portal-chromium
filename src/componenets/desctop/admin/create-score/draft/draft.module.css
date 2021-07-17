@@ -1,0 +1,25 @@
+.inputs {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.inputs div:nth-child(1){
+	width: 90%;
+	margin-left: 0;
+	justify-self: left;
+}
+.inputs div:nth-child(2){
+	width: 90%;
+	margin-right: 0;
+	justify-self: right;
+}
+.buttons{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-bottom: 2rem;
+}
+.buttons div:nth-child(1){
+	filter: hue-rotate(155deg) brightness(0.9);
+}
+.buttons div:nth-child(1):only-child{
+	filter: none;
+}

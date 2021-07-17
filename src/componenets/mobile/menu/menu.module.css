@@ -1,0 +1,32 @@
+.container{
+	width: 100vw;
+	height: 50px;
+	background-color: #E6F4FB;
+	position: fixed;
+	top: calc(100vh - 50px);
+	z-index: 100;
+	box-shadow: 0 0 4px 0 #00000080;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.container a{
+	display: block;
+	text-decoration: none;
+	background-color: #E6F4FB;
+	color: black;
+	cursor: pointer;
+	width: 30px;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	filter: opacity(0.6) grayscale(1);
+}
+.container a.active{
+	filter: opacity(2);
+}
+@media screen and (min-width: 769px){
+	.container{
+		display: none;
+	}
+}

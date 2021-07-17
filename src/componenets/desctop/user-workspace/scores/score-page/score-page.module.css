@@ -1,0 +1,42 @@
+.container{
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+	overflow: hidden;
+	background: #F3FBFF;
+	width: 100%;
+}
+.title{
+	padding: 1em;
+	font-size: 120%;
+	background: #E6F4FB;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+.composer{
+	width: min-content;
+	position: absolute;
+	right: 1rem;
+	font-size: 80%;
+}
+@media screen and (max-width: 768px){
+	.container{
+		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+		border-radius: 12px;
+		overflow: hidden;
+		background: #F3FBFF;
+	}
+	.title{
+		padding: 1em;
+		font-size: 120%;
+		background: #E6F4FB;
+		position: relative;
+		display: block;
+	}
+	.composer{
+		padding-top: 0.5em;
+		width: min-content;
+		position: relative;
+		padding: 1em 0 0 1em;
+	}
+}

@@ -1,0 +1,86 @@
+.container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+.box{
+	width: 100px;
+	height: 50px;
+	background: #038AD422;
+	border-radius: 12px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0px 10px;
+}
+.box div{
+	width: 10px;
+	height: 10px;
+	background: #038AD422;
+	border-radius: 10px;
+	transition-duration: 500ms;
+}
+.round1 {
+    animation: round1__fillColor 1000ms 0ms infinite forwards;
+}
+
+@keyframes round1__fillColor {
+    0%{
+		background-color: #038AD422;
+	}
+	25%{
+		background-color: #038AD4;
+	}
+	50%{
+		background-color: #038AD422;
+	}
+	75%{
+		background-color: #038AD422;
+	}
+	100%{
+		background-color: #038AD422;
+	}
+}
+.round2 {
+    animation: round2__fillColor 1000ms 0ms infinite forwards;
+}
+
+@keyframes round2__fillColor {
+    0%{
+		background-color: #038AD422;
+	}
+	25%{
+		background-color: #038AD422;
+	}
+	50%{
+		background-color: #038AD4;
+	}
+	75%{
+		background-color: #038AD422;
+	}
+	100%{
+		background-color: #038AD4;
+	}
+}
+.round3 {
+    animation: round3__fillColor 1000ms 0ms infinite forwards;
+}
+
+@keyframes round3__fillColor {
+    0%{
+		background-color: #038AD422;
+	}
+	25%{
+		background-color: #038AD422;
+	}
+	50%{
+		background-color: #038AD422;
+	}
+	75%{
+		background-color: #038AD4;
+	}
+	100%{
+		background-color: #038AD422;
+	}
+}

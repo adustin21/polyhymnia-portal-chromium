@@ -1,0 +1,33 @@
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: wheat;
+	cursor: pointer;
+	position: relative;
+}
+.name{
+	font-size: 90%;
+	font-weight: 600;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+.avatar{
+	background-color: rgba(0, 0, 0, 0.25);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	margin: 0 0.8rem;
+}
+.arrow{
+	font-weight: bolder;
+	transform: rotate(180deg);
+	font-size: 80%;
+}
+
+@media screen and (max-width: 765px){
+	.container{
+		margin: 1em 0;
+	}
+}

@@ -1,0 +1,36 @@
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #038ad4;
+	width: 100%;
+	min-height: 100vh;
+}
+.box{
+	padding: 2em 2em 0 2em ;
+	margin: 1em;
+	background-color: wheat;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: 120%;
+	text-align: center;
+	min-width: calc(320px - 4em);
+	width: 30vw;
+	border-radius: 12px;
+	position: relative;
+}
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-size: cover;
+	background-color: #038ad4;
+	position: absolute;
+	top: 10px;
+	left: calc(50% - 50px);
+}
+.name{
+	margin: 100px 0 25px 0;
+	font-weight: bold;
+}

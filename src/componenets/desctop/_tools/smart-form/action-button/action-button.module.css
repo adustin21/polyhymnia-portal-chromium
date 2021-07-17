@@ -1,0 +1,16 @@
+.text, .disableText{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	width: calc(100% - 2em);
+	background-color: #038AD4;
+	height: 100%;
+	cursor: pointer;
+	user-select: none;
+}
+.disableText{
+	background-color: #038bd480;
+	color: rgba(255, 255, 255, 0.9);
+	cursor: default;
+}

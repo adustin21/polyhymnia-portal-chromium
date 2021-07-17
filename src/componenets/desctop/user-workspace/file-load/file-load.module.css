@@ -1,0 +1,16 @@
+.container{
+	background-color: rgba(3, 138, 212, 10%);
+	border-radius: 12px;
+	overflow: hidden;
+}
+.header{
+	background-color: rgba(3, 138, 212, 10%);
+	font-size: 150%;
+	font-weight: bold;
+	padding: 1em ;
+	color: #038AD4;
+}
+.add{
+	font-size: 120%;
+	padding: 1em ;
+}

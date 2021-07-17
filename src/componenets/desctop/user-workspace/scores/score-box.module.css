@@ -1,0 +1,34 @@
+a.container{
+	padding: 0;
+	margin: 0;
+	display: block;
+	padding-bottom: 141%;
+	border: solid 2px #038AD4;
+	border-radius: 12px;
+	box-shadow: 0 3px 4px 0 rgba(0,0,0,0.25);
+	background-size: cover;
+	background-position: center top;
+	position: relative;
+	overflow: hidden;
+	min-width: max-content;
+	cursor: pointer;
+}
+.description{
+	padding: 0.5em;
+	position: absolute;
+	bottom: 0;
+	background-color: #038AD4;
+	width: 100%;
+	color: wheat;
+}
+.title{
+	font-size: 140%;
+}
+.composer{
+	color: rgba(245, 222, 179, 75%);
+}
+@media screen and (max-width: 768px){
+	a.container{
+		padding-bottom: 70%;
+	}
+}

@@ -1,0 +1,32 @@
+.container{
+	width: 80%;
+	min-width: min-content;
+	background-color: rgba(3, 138, 212, 10%);
+	padding: 1em 0em;
+	border-radius: 12px;
+	position: sticky;
+	top: 6rem;
+}
+a{
+	display: block;
+	text-decoration: none;
+	background: rgba(0, 0, 0, 5%);
+	padding: 0.5em;
+	color: black;
+	margin: 1em 0;
+	cursor: pointer;
+}
+a:first-child{
+	margin-top: 0;
+}
+a:last-child{
+	margin-bottom: 0;
+}
+a.active{
+	background: rgba(0, 0, 0, 15%);
+}
+@media screen and (max-width: 768px){
+	.container{
+		display: none;
+	  }
+}

@@ -1,0 +1,11 @@
+.title{
+	font-weight: bold;
+	padding: 1em 0;
+	font-size: 110%;
+	color: rgb(3, 138, 212);
+	cursor: default;
+}
+.files{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}

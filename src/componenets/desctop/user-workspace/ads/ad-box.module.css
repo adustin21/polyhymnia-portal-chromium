@@ -1,0 +1,35 @@
+.container{
+	border-radius: 12px;
+	background: #E6F4FB;
+	overflow: hidden;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+	margin-bottom: 2rem;
+	width: 100%;
+}
+.title{
+	padding: 1em;
+	font-size: 120%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.timeLabel{
+	font-size: 80%;
+	color: #000000aa;
+
+}
+.content{
+	background: #F3FBFF;
+	padding: 1em;
+	white-space: pre-wrap;
+}
+@media screen and (max-width: 768px){
+	.title{
+		flex-wrap: wrap;
+	}
+	.timeLabel{
+		padding-top: 1em;
+		width: 100%;
+	}
+}

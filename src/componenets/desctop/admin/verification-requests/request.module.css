@@ -1,0 +1,22 @@
+.container{
+	display: grid;
+	min-width: 550px;
+	grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+	margin: 0.2em 0em;
+	background-color: rgb(3, 138, 212, 10%);
+	border-radius: 12px;
+	font-weight: bold;
+
+}
+.container div{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-self: center;
+}
+.container div:nth-child(4){
+	filter: hue-rotate(300deg) brightness(0.9);
+}
+.container div:nth-child(5){
+	filter: hue-rotate(150deg) brightness(0.9);
+}

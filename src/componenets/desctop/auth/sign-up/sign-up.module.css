@@ -1,0 +1,16 @@
+.container{
+	display: grid;
+	height: 60vh;
+}
+.signUpBox{
+	overflow-y: scroll;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.tyle{
+	width: calc(100% - 1em);
+	padding: 0.5em;
+	cursor: pointer;
+	text-align: center;
+}
