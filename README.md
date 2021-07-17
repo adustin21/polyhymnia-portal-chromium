@@ -8,7 +8,7 @@ The Polyhymnia Private Portal (PPP) is a CRM for easy comunication between the c
 
 ## Release Info
 
-This version of PPP presents the files of the client and server side of the application without some secret files. For  the application to work correctly, you must create `./server/data-store`, `./server/data-store/images`, `./server/data-store/images/avatars`, `./server/data-store/images/scores` and provide existence default files like `avatar.png` and `cover.png`. You should also create a ./secret/secret.js file and add the following information to it.
+This version of PPP presents the files of the client and server side of the application without some secret files. For  the application to work correctly, you must create `./server/data-store`, `./server/data-store/images`, `./server/data-store/images/avatars`, `./server/data-store/images/scores` and provide existence default files like `avatar.png` and `cover.png`. You should also create a `./secret/secret.js` file and add the following information to it.
 
 	const dbUrl =  "DataBaseUrl";
 	const dbName = 'polyhymnia';
