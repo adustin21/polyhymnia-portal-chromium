@@ -33,7 +33,7 @@ This version is not speed optimized too.
 ## Available Scripts
 
 `ALL DEFAULT CRA SCRIPTS`
-
+***
 `node ./server/app.js`
 
 This command starts server side of the app and uses localhost:3000. by default.
