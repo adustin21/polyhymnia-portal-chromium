@@ -4,7 +4,7 @@ This project was bootstrapped with Create React App.
 
 ## Main Info
 
-The Polyhymnia Private Portal (PPP) is a CRM for easy comunication between the choir administaration and artists. PPP allows to publish ads, files and other data for registered users and access them in a simple way.
+The Polyhymnia Private Portal (PPP) is a CMS for easy comunication between the choir administaration and artists. PPP allows to publish ads, files and other data for registered users and access them in a simple way.
 
 ## Release Info
 
